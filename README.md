@@ -83,7 +83,7 @@ Based on the data from 3 acceleration sensors, the Freezing of GAIT Detection Mo
 ---
 
 ## PD DETECT API
-- Link: https://pd-detect-api.herokuapp.com/
+- The API is hosted in Heroku. Link: https://pd-detect-api.herokuapp.com/
 - This API returns sample data in JSON format from the test dataset.
 - To view the JSON data, visit https://pd-detect-api.herokuapp.com/finaldetect
 
