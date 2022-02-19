@@ -105,7 +105,7 @@ PD Detected        |  Severity Assessment Questions
 
 PD Severity Result       |  No PD Detected
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/53406309/154800108-2a168551-86b8-4b76-b17a-d337b99bdb08.png" width="70%"> | <img src="https://user-images.githubusercontent.com/53406309/154800107-c0dc30d3-fe28-4559-ba32-aeca0fa87b5e.png" width="70%">
+<img src="https://user-images.githubusercontent.com/53406309/154800107-c0dc30d3-fe28-4559-ba32-aeca0fa87b5e.png" width="70%"> | <img src="https://user-images.githubusercontent.com/53406309/154800108-2a168551-86b8-4b76-b17a-d337b99bdb08.png" width="70%">
 
 ### ParkinFit
 - ParkinFit mobile application calculates the Modified UPRS score for Parkinson's Disease based on the severity assessment question.
