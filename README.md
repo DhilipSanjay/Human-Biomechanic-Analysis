@@ -23,16 +23,18 @@ The **early detection of Parkinson’s Disease** is a clinical challenge for the
   -	The database includes the vertical ground reaction force records of subjects as they walked at their usual, self-selected pace for approximately 2 minutes on level ground.
   -	The output of each of these 16 sensors has been digitized and recorded at **100 samples per second**, and the records also include two signals that reflect the sum of the 8 sensor outputs for each foot. 
 
-![Position of 16 sensors](https://user-images.githubusercontent.com/53406309/154796873-dace410a-3350-4177-9134-97871521e2de.png)
 
 ### [**Daphnet Dataset**](https://archive.ics.uci.edu/ml/datasets/Daphnet+Freezing+of+Gait)
-The dataset comprises of recordings of 3D acceleration at 64 Hz from 3 acceleration sensors. The sensors are placed at the ankle (shank), on the thigh, and on the hip. The dataset was recorded in the lab with emphasis on generating many freeze events. Users performed three kinds of tasks: straight line walking, walking with numerous turns, and finally a more realistic activity of daily living (ADL) task, where users went into different rooms while fetching coffee, opening doors, etc. The meaning of the annotations of the samples are as follows:
-•	0: not part of the experiment. For instance, the sensors are installed on the user or the user is performing activities unrelated to the experimental protocol, such as debriefing.
-•	1: experiment, no freeze (can be any of stand, walk, turn)
-•	2: freeze
+  - The dataset comprises of recordings of 3D acceleration at 64 Hz from 3 acceleration sensors. 
+  - The sensors are placed at the ankle (shank), on the thigh, and on the hip. The dataset was recorded in the lab with emphasis on generating many freeze events. 
+  - Users performed three kinds of tasks: straight line walking, walking with numerous turns, and finally a more realistic activity of daily living (ADL) task, where users went into different rooms while fetching coffee, opening doors, etc. The meaning of the annotations of the samples are as follows:
+    -	**0**: not part of the experiment. For instance, the sensors are installed on the user or the user is performing activities unrelated to the experimental protocol, such as debriefing.
+    - **1**: experiment, no freeze (can be any of stand, walk, turn)
+    - **2**: freeze
 
-![Position of 3 wearable wireless acceleration sensors](https://user-images.githubusercontent.com/53406309/154796892-aa350d45-9b3a-47ef-bb8b-5e7245087b17.png)
-
+Physionet - Sensor Positions         |  Daphnet - Sensor Positions
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/53406309/154796873-dace410a-3350-4177-9134-97871521e2de.png" width="70%"> | <img src="https://user-images.githubusercontent.com/53406309/154796892-aa350d45-9b3a-47ef-bb8b-5e7245087b17.png" width="70%">
 ---
 
 ## System Architecture
@@ -80,7 +82,29 @@ Based on the data from 3 acceleration sensors, the Freezing of GAIT Detection Mo
 
 ---
 
+## PD DETECT API
+- Link: https://pd-detect-api.herokuapp.com/
+- This API just returns sample data in JSON format from the test part of the dataset.
+- To view the JSON data, visit https://pd-detect-api.herokuapp.com/finaldetect
+
 ## PD DETECT - Android Application
 - PD Detect is a mobile application developed for the Detection of Parkinson’s Disease and for assessing the severity of the Parkinson’s Disease based on Hoehn Yahr Scale and few survey questions. 
-- This application detects the Parkinson's disease using the output from 3 accelerometers placed at the ankle (shank), on the thigh, and on the hip & 16 sensors measuring force (in Newton) placed at the feet. The data is stored and processed in cloud.
+- This application detects the Parkinson's disease using the output from 3 accelerometers placed at the ankle (shank), on the thigh, and on the hip & 16 sensors measuring force (in Newton) placed at the feet. The data is fetched from the API.
+- There are 12 severity assessment questions which are also combined together with the model to predict the severity.
 
+Loading Screen         |  Home 
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/53406309/154800026-55210992-51a9-4ef1-afaa-6eeb3b864a3c.png" width="70%"> | <img src="https://user-images.githubusercontent.com/53406309/154800029-679c3980-3351-4461-bc60-f63a5edd68d5.png" width="70%">
+
+PD Detected        |  Severity Assessment Questions
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/53406309/154800051-16a49ffc-2251-4f1f-ac7f-297d4a3202a8.png" width="70%"> | <img src="https://user-images.githubusercontent.com/53406309/154800053-5002694a-c7fc-4139-ba25-dae1e8514022.png" width="70%">
+
+PD Severity Result       |  No PD Detected
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/53406309/154800108-2a168551-86b8-4b76-b17a-d337b99bdb08.png" width="70%"> | <img src="https://user-images.githubusercontent.com/53406309/154800107-c0dc30d3-fe28-4559-ba32-aeca0fa87b5e.png" width="70%">
+
+---
+
+### Note
+This project is done by a team of 5 students as a part of Project Work in CSE.
