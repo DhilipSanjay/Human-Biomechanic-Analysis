@@ -1,0 +1,15 @@
+{"questions": [
+{"question": "Cognitive Impairment", "choices": ["No Sign", "Cognitive dysfunction, mild interference with normal activities", "Cognitive dysfunction, moderate interference with normal activities", "Cognitive dysfunction precludes patient\u2019s normal activities"]},
+{"question": "Mood Disorders", "choices": ["No Sign", "Episodes of depressed mood, not lasting more than a day", "Depressed mood sustain over days, minimal interference with normal activities", "Depressed mood precludes patient\u2019s normal activities"]}, 
+{"question": "Sleep Problems", "choices": ["No Sign", "Sleep problems, trouble getting a full night of sleep", "Sleep problems, but sleeps more than half the night", "Do not sleep for most of the night "]}, 
+{"question": "Dizziness, Fatigue", "choices": ["No Sign", "Feelings occur, no troubles doing things ", "Feelings occur, some troubles doing things ", "Feelings preclude doing things"]}, 
+{"question": "Tremor", "choices": ["No Sign", "Tremor occurs, No trouble in doing any activities", "Tremor occurs, problems with only a few activities ", "Tremor occurs, problems with many or all activities "]}, 
+{"question": "Freezing of Gait", "choices": ["No Sign", "Freezing on starting of walking", "Freezing once during walking", "Freezing multiple times during walking"]}, 
+{"question": "Rigidity", "choices": ["No Sign", "Rigidity detected, but full ROM is easily achieved", "Rigidity detected, and full ROM is achieved with effort", "Rigidity detected, and full ROM is not achieved"]}, 
+{"question": "Gait", "choices": ["No Sign", "Independent walking with minor gait impairment. ", "Requires an assistance device for safe walking.", "Cannot walk at all or only with another person\u2019s assistance"]}, 
+{"question": "Postural Stability", "choices": ["No Sign", "Mildly Unstable", "Moderately Unstable", "Unstable"]}, 
+{"question": "Slowed Movement", "choices": ["No Sign", "Mild global slowness and poverty of spontaneous movements.", "Moderate global slowness and poverty of spontaneous movements.  ", " Slight global slowness and poverty of spontaneous movements. "]}, 
+{"question": "Loss of Smell", "choices": ["No Sign", "Slight", "Moderate", "No smell detected"]}, 
+{"question": "Low or Hoarse Voice", "choices": ["No Sign", "Slightly low, not hoarse", "Slightly hoarse", "More hoarseness"]}
+]
+}
