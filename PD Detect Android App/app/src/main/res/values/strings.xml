@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PD Detect</string>
+    <string name="todo">TODO</string>
+    <string name="pd_detect">PD DETECT</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="about">About</string>
+    <string name="parkinson_s_disease_pd_is_a_disorder_of_the_central_nervous_system_that_affects_movement_often_including_tremors_we_have_designed_a_system_that_uses_deep_learning_to_detect_parkinson_s_disease_at_an_earlier_stage">Parkinson’s Disease (PD) is a disorder of the central nervous system that affects movement, often including tremors. We have designed a system that uses deep learning to detect Parkinson’s Disease at an earlier stage.</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pddetect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".about"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".severityresult"
+            android:exported="true" />
+        <activity
+            android:name=".severityquestion"
+            android:exported="true"></activity>
+        <activity
+            android:name=".negativescreen"
+            android:exported="true" />
+        <activity
+            android:name=".positivescreen"
+            android:exported="true"></activity>
+        <activity
+            android:name=".loadingscreen"
+            android:exported="true" />
+        <activity
+            android:name=".teaminfo"
+            android:exported="true" />
+        <activity
+            android:name=".homepage"
+            android:exported="true" />
+        <activity
+            android:name=".register"
+            android:exported="true"></activity>
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

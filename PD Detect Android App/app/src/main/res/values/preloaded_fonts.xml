@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+
+        <item>@font/aclonica</item>
+        <item>@font/antic</item>
+        <item>@font/bad_script</item>
+        <item>@font/bungee</item>
+        <item>@font/contrail_one</item>
+        <item>@font/doppio_one</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/roboto_bold</item>
+    </array>
+</resources>
